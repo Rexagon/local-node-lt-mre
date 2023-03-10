@@ -1,0 +1,39 @@
+{
+	"ABI version": 2,
+	"version": "2.3",
+	"header": ["time", "expire"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "emitEvents",
+			"inputs": [
+				{"name":"amount","type":"uint8"}
+			],
+			"outputs": [
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+		{
+			"name": "SomeEvent",
+			"inputs": [
+				{"name":"value0","type":"uint64"}
+			],
+			"outputs": [
+			]
+		}
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"}
+	]
+}
